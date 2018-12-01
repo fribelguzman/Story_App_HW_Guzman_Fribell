@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fr33d00m.story_app_hw_guzman_fribell">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Question1"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question2"
+            android:parentActivityName=".Question1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question3"
+            android:parentActivityName=".Question2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question4"
+            android:parentActivityName=".Question3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question5"
+            android:parentActivityName=".Question4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question6"
+            android:parentActivityName=".Question5"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Question7"
+            android:parentActivityName=".Question6"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Story"
+            android:parentActivityName=".Question7"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

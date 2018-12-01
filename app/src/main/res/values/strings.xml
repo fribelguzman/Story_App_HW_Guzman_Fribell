@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Story_App_HW_Guzman_Fribell</string>
+    <string name="create_a_fairytale">Create a Fairytale</string>
+    <string name="whats_your_role">Whats your role</string>
+    <string name="where_do_you_live">Where do you live</string>
+    <string name="whats_your_superpower">Whats your superpower</string>
+    <string name="what_do_you_hate_to_do">What do you hate to do</string>
+    <string name="fave_thing_to_do">Fave thing to do</string>
+    <string name="whats_your_happy_ending">whats your happy ending</string>
+    <string name="what_do_you_love_to_do">What do you love to do</string>
+</resources>
